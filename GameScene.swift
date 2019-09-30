@@ -144,7 +144,6 @@ extension GameScene: SKPhysicsContactDelegate {
             createApple()
         case collisionCategory.EdgeBody:
             let snake = contact.bodyA.node is Snake ? contact.bodyA.node : contact.bodyB.node
-            snake?.removeFromParent()
             snake!.updateFocusIfNeeded()
             //home work
         default:
