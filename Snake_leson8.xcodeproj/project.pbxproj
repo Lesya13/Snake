@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCA64022341232500FC2592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA64012341232500FC2592 /* AppDelegate.swift */; };
+		CFCA64042341232500FC2592 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFCA64032341232500FC2592 /* GameScene.sks */; };
+		CFCA64062341232500FC2592 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFCA64052341232500FC2592 /* Actions.sks */; };
+		CFCA64082341232500FC2592 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA64072341232500FC2592 /* GameScene.swift */; };
+		CFCA640A2341232500FC2592 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA64092341232500FC2592 /* GameViewController.swift */; };
+		CFCA640D2341232500FC2592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA640B2341232500FC2592 /* Main.storyboard */; };
+		CFCA640F2341232800FC2592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCA640E2341232800FC2592 /* Assets.xcassets */; };
+		CFCA64122341232800FC2592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA64102341232800FC2592 /* LaunchScreen.storyboard */; };
+		CFCA641D2341232900FC2592 /* Snake_leson8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA641C2341232900FC2592 /* Snake_leson8Tests.swift */; };
+		CFCA64282341232900FC2592 /* Snake_leson8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA64272341232900FC2592 /* Snake_leson8UITests.swift */; };
+		CFCA6436234130E700FC2592 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA6435234130E700FC2592 /* Apple.swift */; };
+		CFCA6438234134DE00FC2592 /* SnakeBodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA6437234134DE00FC2592 /* SnakeBodyPart.swift */; };
+		CFCA643A2341370500FC2592 /* SnakeHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA64392341370500FC2592 /* SnakeHead.swift */; };
+		CFCA643C2341380000FC2592 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA643B2341380000FC2592 /* Snake.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCA64192341232900FC2592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA63F62341232400FC2592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCA63FD2341232400FC2592;
+			remoteInfo = Snake_leson8;
+		};
+		CFCA64242341232900FC2592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCA63F62341232400FC2592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCA63FD2341232400FC2592;
+			remoteInfo = Snake_leson8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCA63FE2341232500FC2592 /* Snake_leson8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake_leson8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA64012341232500FC2592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCA64032341232500FC2592 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CFCA64052341232500FC2592 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CFCA64072341232500FC2592 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CFCA64092341232500FC2592 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CFCA640C2341232500FC2592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCA640E2341232800FC2592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCA64112341232800FC2592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCA64132341232800FC2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCA64182341232900FC2592 /* Snake_leson8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snake_leson8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA641C2341232900FC2592 /* Snake_leson8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake_leson8Tests.swift; sourceTree = "<group>"; };
+		CFCA641E2341232900FC2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCA64232341232900FC2592 /* Snake_leson8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snake_leson8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA64272341232900FC2592 /* Snake_leson8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake_leson8UITests.swift; sourceTree = "<group>"; };
+		CFCA64292341232900FC2592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCA6435234130E700FC2592 /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		CFCA6437234134DE00FC2592 /* SnakeBodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeBodyPart.swift; sourceTree = "<group>"; };
+		CFCA64392341370500FC2592 /* SnakeHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeHead.swift; sourceTree = "<group>"; };
+		CFCA643B2341380000FC2592 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCA63FB2341232400FC2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA64152341232900FC2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA64202341232900FC2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCA63F52341232400FC2592 = {
+			isa = PBXGroup;
+			children = (
+				CFCA64002341232500FC2592 /* Snake_leson8 */,
+				CFCA641B2341232900FC2592 /* Snake_leson8Tests */,
+				CFCA64262341232900FC2592 /* Snake_leson8UITests */,
+				CFCA63FF2341232500FC2592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCA63FF2341232500FC2592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA63FE2341232500FC2592 /* Snake_leson8.app */,
+				CFCA64182341232900FC2592 /* Snake_leson8Tests.xctest */,
+				CFCA64232341232900FC2592 /* Snake_leson8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCA64002341232500FC2592 /* Snake_leson8 */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA64012341232500FC2592 /* AppDelegate.swift */,
+				CFCA64032341232500FC2592 /* GameScene.sks */,
+				CFCA64052341232500FC2592 /* Actions.sks */,
+				CFCA64072341232500FC2592 /* GameScene.swift */,
+				CFCA6437234134DE00FC2592 /* SnakeBodyPart.swift */,
+				CFCA64392341370500FC2592 /* SnakeHead.swift */,
+				CFCA643B2341380000FC2592 /* Snake.swift */,
+				CFCA6435234130E700FC2592 /* Apple.swift */,
+				CFCA64092341232500FC2592 /* GameViewController.swift */,
+				CFCA640B2341232500FC2592 /* Main.storyboard */,
+				CFCA640E2341232800FC2592 /* Assets.xcassets */,
+				CFCA64102341232800FC2592 /* LaunchScreen.storyboard */,
+				CFCA64132341232800FC2592 /* Info.plist */,
+			);
+			path = Snake_leson8;
+			sourceTree = "<group>";
+		};
+		CFCA641B2341232900FC2592 /* Snake_leson8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA641C2341232900FC2592 /* Snake_leson8Tests.swift */,
+				CFCA641E2341232900FC2592 /* Info.plist */,
+			);
+			path = Snake_leson8Tests;
+			sourceTree = "<group>";
+		};
+		CFCA64262341232900FC2592 /* Snake_leson8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA64272341232900FC2592 /* Snake_leson8UITests.swift */,
+				CFCA64292341232900FC2592 /* Info.plist */,
+			);
+			path = Snake_leson8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCA63FD2341232400FC2592 /* Snake_leson8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCA642C2341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8" */;
+			buildPhases = (
+				CFCA63FA2341232400FC2592 /* Sources */,
+				CFCA63FB2341232400FC2592 /* Frameworks */,
+				CFCA63FC2341232400FC2592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snake_leson8;
+			productName = Snake_leson8;
+			productReference = CFCA63FE2341232500FC2592 /* Snake_leson8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCA64172341232900FC2592 /* Snake_leson8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCA642F2341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8Tests" */;
+			buildPhases = (
+				CFCA64142341232900FC2592 /* Sources */,
+				CFCA64152341232900FC2592 /* Frameworks */,
+				CFCA64162341232900FC2592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCA641A2341232900FC2592 /* PBXTargetDependency */,
+			);
+			name = Snake_leson8Tests;
+			productName = Snake_leson8Tests;
+			productReference = CFCA64182341232900FC2592 /* Snake_leson8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCA64222341232900FC2592 /* Snake_leson8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCA64322341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8UITests" */;
+			buildPhases = (
+				CFCA641F2341232900FC2592 /* Sources */,
+				CFCA64202341232900FC2592 /* Frameworks */,
+				CFCA64212341232900FC2592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCA64252341232900FC2592 /* PBXTargetDependency */,
+			);
+			name = Snake_leson8UITests;
+			productName = Snake_leson8UITests;
+			productReference = CFCA64232341232900FC2592 /* Snake_leson8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCA63F62341232400FC2592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Lesya Os";
+				TargetAttributes = {
+					CFCA63FD2341232400FC2592 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CFCA64172341232900FC2592 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CFCA63FD2341232400FC2592;
+					};
+					CFCA64222341232900FC2592 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CFCA63FD2341232400FC2592;
+					};
+				};
+			};
+			buildConfigurationList = CFCA63F92341232400FC2592 /* Build configuration list for PBXProject "Snake_leson8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCA63F52341232400FC2592;
+			productRefGroup = CFCA63FF2341232500FC2592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCA63FD2341232400FC2592 /* Snake_leson8 */,
+				CFCA64172341232900FC2592 /* Snake_leson8Tests */,
+				CFCA64222341232900FC2592 /* Snake_leson8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCA63FC2341232400FC2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA640D2341232500FC2592 /* Main.storyboard in Resources */,
+				CFCA64042341232500FC2592 /* GameScene.sks in Resources */,
+				CFCA640F2341232800FC2592 /* Assets.xcassets in Resources */,
+				CFCA64122341232800FC2592 /* LaunchScreen.storyboard in Resources */,
+				CFCA64062341232500FC2592 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA64162341232900FC2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA64212341232900FC2592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCA63FA2341232400FC2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA643A2341370500FC2592 /* SnakeHead.swift in Sources */,
+				CFCA6436234130E700FC2592 /* Apple.swift in Sources */,
+				CFCA64082341232500FC2592 /* GameScene.swift in Sources */,
+				CFCA640A2341232500FC2592 /* GameViewController.swift in Sources */,
+				CFCA6438234134DE00FC2592 /* SnakeBodyPart.swift in Sources */,
+				CFCA643C2341380000FC2592 /* Snake.swift in Sources */,
+				CFCA64022341232500FC2592 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA64142341232900FC2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA641D2341232900FC2592 /* Snake_leson8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCA641F2341232900FC2592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA64282341232900FC2592 /* Snake_leson8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCA641A2341232900FC2592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCA63FD2341232400FC2592 /* Snake_leson8 */;
+			targetProxy = CFCA64192341232900FC2592 /* PBXContainerItemProxy */;
+		};
+		CFCA64252341232900FC2592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCA63FD2341232400FC2592 /* Snake_leson8 */;
+			targetProxy = CFCA64242341232900FC2592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCA640B2341232500FC2592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCA640C2341232500FC2592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCA64102341232800FC2592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCA64112341232800FC2592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCA642A2341232900FC2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFCA642B2341232900FC2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCA642D2341232900FC2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCA642E2341232900FC2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFCA64302341232900FC2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake_leson8.app/Snake_leson8";
+			};
+			name = Debug;
+		};
+		CFCA64312341232900FC2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake_leson8.app/Snake_leson8";
+			};
+			name = Release;
+		};
+		CFCA64332341232900FC2592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snake_leson8;
+			};
+			name = Debug;
+		};
+		CFCA64342341232900FC2592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Snake_leson8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lesya-Os.Snake-leson8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snake_leson8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCA63F92341232400FC2592 /* Build configuration list for PBXProject "Snake_leson8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA642A2341232900FC2592 /* Debug */,
+				CFCA642B2341232900FC2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCA642C2341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA642D2341232900FC2592 /* Debug */,
+				CFCA642E2341232900FC2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCA642F2341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA64302341232900FC2592 /* Debug */,
+				CFCA64312341232900FC2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCA64322341232900FC2592 /* Build configuration list for PBXNativeTarget "Snake_leson8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA64332341232900FC2592 /* Debug */,
+				CFCA64342341232900FC2592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCA63F62341232400FC2592 /* Project object */;
+}
