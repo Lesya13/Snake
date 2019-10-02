@@ -122,7 +122,6 @@ class GameScene: SKScene {
         
     }
     
-    
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
         snake!.move()
@@ -130,6 +129,7 @@ class GameScene: SKScene {
 }
 
 extension GameScene: SKPhysicsContactDelegate {
+   
     func didBegin(_ contact: SKPhysicsContact) {
         
         let bodyes = contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask
@@ -143,13 +143,12 @@ extension GameScene: SKPhysicsContactDelegate {
             apple?.removeFromParent()
             createApple()
         case collisionCategory.EdgeBody:
-            let snake = contact.bodyA.node is Snake ? contact.bodyA.node : contact.bodyB.node
-            snake?.removeFromParent()
-            snake!.updateFocusIfNeeded()
+            self.removeAllChildren()
+            didMove(to: view!)
+            break
             //home work
         default:
             break
         }
-        
     }
 }
